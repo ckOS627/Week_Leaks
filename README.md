@@ -1,2 +1,8 @@
 # Week_Leaks
 Este é um projeto de um site inspirado no site do WeekLeaks. Este site tem como foco a livre circulação de informações, as quais são restritas ao público. Este site é meramente uma forma de estudo sobre a circulação e vazamentos de dados governamentais.
+De maneira educacional, trago-lhes um site de informações livres e de livre conhecimento sobre saberes e dilemas sociais, abertos ao público e divulgados em massa pela internet e mídias sociais.
+Valores, informações, crimes e desrespeitos governamentais são mostrados no site e refletidos em nossos dias.
+Com este site, apenas exponho, de maneira educacional e universitária, uma forma de propagação de informações que, de outra maneira, seriam mantidas em sigilo da população mundial.
+O site ainda está em desenvolvimento! Acompanhe meu projeto!.
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+This is a project for a website inspired by the WeekLeaks site. This website focuses on the free circulation of information that is restricted to the public. This site is merely a study on the circulation and leaks of government data. In an educational manner, I present to you a site of free information and knowledge about social issues and dilemmas, open to the public and widely disseminated through the internet and social media. Values, information, crimes, and governmental disrespect are shown on the site and reflected in our days. With this site, I only expose, in an educational and academic way, a means of propagating information that would otherwise be kept secret from the global population. The site is still under development! Follow my project!
