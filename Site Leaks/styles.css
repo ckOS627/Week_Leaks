@@ -1,0 +1,392 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /*background-image: url();
+    width: 200px;
+    height: 120px;*/
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;   /* centraliza */
+    gap: 30px;                 /* espaço entre links */
+    padding: 15px 0;
+    margin-bottom: 25px;
+    background: #f9f9fc;       /* faixa clara atrás do menu */
+    border-radius: 8px;        /* cantos arredondados */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: #0077cc;
+    color: #fff;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;                 /* cantos arredondados maiores */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08); /* sombra suave */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito hover no card */
+main:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Seção de estrutura */
+#estrutura h2 {
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+#estrutura p {
+    margin-bottom: 15px;
+}
+
+#estrutura ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#estrutura ul li {
+    margin-bottom: 10px;
+}
+
+/* Links dentro do main */
+main a {
+    color: #0077cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+/* ===== Seção de Apoios / Parceiros ===== */
+.apoios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px 30px;
+    background-color: #f0f0f5;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.apoio {
+    flex: 1 1 200px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.apoio img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.apoio p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+.apoios {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* rede */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    background-color: #eeeeee00; /* mesmo fundo da imagem que você enviou */
+}
+
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.social-icons a img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+/*botao da porra do main
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #005fa3;
+}*/ 
+
+/* ===== Seção de Leaks ===== */
+.leak {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.leak h3 {
+    color: #0077cc;
+    margin-bottom: 8px;
+}
+
+.leak a {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.leak a:hover {
+    text-decoration: underline;
+}
+/* img2 */
+.leak {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.leak-img {
+    width: 120px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.leak-content {
+    flex: 1;
+}
+
+/* Estilo do formulário */
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.form-container h2 {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9fc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    min-height: 100px;
+}
+
+.form-container .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.form-container .botao:hover {
+    background-color: #005fa3;
+}
+
+/*denuncia*/
+.info-anonimo {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    text-align: center;
+}
+.info-anonimo a {
+    color: #0077cc;
+    font-weight: bold;
+}
+.info-anonimo a:hover {
+    text-decoration: underline;
+}
+
+.directory-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.directory-list li {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-left: 3px solid #ccc;
+}
+
+.directory-list li a {
+    font-weight: bold;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.directory-list li a:hover {
+    text-decoration: underline;
+}
+
+.directory-list li p {
+    margin: 0.5em 0 0 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.directory-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.directory-list li {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-left: 3px solid #ccc;
+}
+
+.directory-list li a {
+    font-weight: bold;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.directory-list li a:hover {
+    text-decoration: underline;
+}
+
+.directory-list li p {
+    margin: 0.5em 0 0 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+#fuzzbunch-file-content {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
